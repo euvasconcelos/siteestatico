@@ -52,5 +52,6 @@ header{
 }
 
 .header-content h1{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    color: white;
 }
