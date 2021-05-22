@@ -48,7 +48,7 @@ header{
 .header-content{
     max-width: 400px;
     margin: 150px auto;
-    text-align: initial;
+    text-align: center;
 }
 
 .header-content h1{
