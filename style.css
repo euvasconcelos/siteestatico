@@ -42,7 +42,7 @@ nav p{
 
 header{
     height: calc(100vh - 150px);
-    background:no-repeat center/cover url("assets/logo-image.jpg");
+    background:no-repeat center/cover url("assets/image-logo.jpg");
 }
 
 .header-content{
