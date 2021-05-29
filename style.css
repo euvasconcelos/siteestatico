@@ -8,9 +8,6 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
-    font-size: 4rem;
-}
 
 button{
     padding: 10px 15px;
@@ -21,6 +18,22 @@ button{
     color: white;
 }
 
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}
+
+header nav p{
+    font-weight: bold;
+    color: white;
+}
+
+h1{
+    font-size: 4rem;
+}
+
 ul{
     list-style: none;
     display: flex;
@@ -29,17 +42,6 @@ ul{
 li{
     margin:0 15px;
     color: white;  
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin: auto 30px;
-}
-
-nav p{
-    font-weight: bold;
-    color: white;
 }
 
 header{
