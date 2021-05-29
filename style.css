@@ -6,6 +6,7 @@
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -13,11 +14,16 @@ button{
     padding: 10px 15px;
     border-radius: 8px;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
     border: 0;
     background: cornflowerblue;
     color: white;
 }
 
+header{
+    height: calc(100vh - 150px);
+    background:no-repeat center/cover url("assets/image-logo.jpg");
+}
 
 header nav{
     display: flex;
@@ -30,23 +36,15 @@ header nav p{
     color: white;
 }
 
-h1{
-    font-size: 4rem;
-}
 
-ul{
+header nav ul{
     list-style: none;
     display: flex;
 }
 
-li{
+header nav ul li{
     margin:0 15px;
     color: white;  
-}
-
-header{
-    height: calc(100vh - 150px);
-    background:no-repeat center/cover url("assets/image-logo.jpg");
 }
 
 .header-content{
@@ -56,11 +54,63 @@ header{
 }
 
 .header-content h1{
+    margin-bottom: 10px;
     color: white;
+    font-size: 4rem;
 }
 
 .header-content p{
     color: white;
     font-weight: bold;
+    
+}
+
+.pacotes{
+
+}
+
+@media (max-width: 767px) {
+
+}
+@media (max-width: 480px) {
+
+    body{
+        height: calc(100vh - 55px);
+    }
+
+    header nav ul{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+
+        background: #1D61DD;
+        color: white;
+        font-weight: bold;
+        height: 55px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: space-between;
+
+    }
+        header nav p{
+            width: 100%;
+            text-align: center;
+        }
+    
+    
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+@media (min-width: 1200px) {
+
 }
 
